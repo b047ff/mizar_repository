@@ -1,11 +1,11 @@
 environ
 
-   vocabularies XBOOLE_0, TARSKI;
+ vocabularies XBOOLE_0, TARSKI;
  notations TARSKI, XBOOLE_0;
  constructors TARSKI, XBOOLE_0;
-    definitions XBOOLE_0, TARSKI;
+ definitions XBOOLE_0, TARSKI;
  equalities XBOOLE_0;
-    expansions TARSKI;
+ expansions TARSKI;
  theorems XBOOLE_0, TARSKI;
 begin
 
@@ -19,4 +19,4 @@ proof
   A1: not x in {} by XBOOLE_0:def 1;
   assume x in X;
   hence thesis by A1, XBOOLE_0:def 5;
-end;
+end
