@@ -6,7 +6,7 @@ environ
 
 begin
 
- reserve x,y,z,u for object;
+reserve x,y,z,u for object;
 
 theorem :: Everything is a set
   for x being object holds x is set by TARSKI_0:1;
